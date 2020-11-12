@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.frontpage{
+    background: rgba(0, 0, 0, 0.7) url(../Images/bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar li{
+    padding: 0px 40px;
+    padding-top:40px ;
+    font-size: 1.3rem;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.navbar li a:hover{
+    color: grey;
+}
+.logo img{
+    width: 110px;
+    height: 108px;
+    border-radius: 100px;
+}
+.coverpg{
+    padding: 0;
+}
+.coverpg img{
+    margin: auto;
+    display: block;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+.about-web{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:40px 200px;
+    color: white;
+}
+.about-web h1{
+    font-size: 2.4rem;
+}
+.about-web p{
+    font-size:2.0rem;
+    text-align: center;
+}
+.shop{
+    padding: 9px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size:1.2rem;
+    text-decoration: none;
+}
+.shop:hover{
+    background-color:grey ;
+}
+.products img{
+    width: 200px;
+    height: 200px;
+    padding: 40px 90px;
+    padding-bottom: 12px;
+}
+.products p{
+    padding-bottom: 10px;
+}
+.products{
+    display: flex;
+    color:white;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+.products a{
+    color: white;
+    text-decoration:none;
+    padding: 7px;
+    background-color: brown;
+}
+.products a:hover{
+    background-color: red;
+}
+.shopnow{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.shopnow h1{
+    font-size: 2.6rem;
+    padding-top: 30px;
+}
+.box1{text-align:center;}
+.box2{text-align:center;}
+.box3{text-align:center;}
+.box4{text-align:center;}
+
+
+.about{
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 300px;
+}
+.about p{
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    font-size: 2.0rem;
+}
+.about h1{
+    font-size: 2.4rem;
+}
+
+.right-footer{
+    text-align: center;
+    padding-left:200px ;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 160px;
+    background-color: green;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: grey;
+    padding: 5px;
+}
+.footer a:hover{
+    color: black;
+}
+.center-footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 50px;
+}
+
+input{
+    background: none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 3px solid white;
+    padding:6px;
+    color: white;
+    font-size: 1.0rem;
+}
+input::placeholder{
+    color: white;
+    font-size: 1.0rem;
+}
+.signup{
+    background-color: black;
+    color: white;
+    padding: 6px;
+}
+.signup:hover{
+    background-color: grey;
+}

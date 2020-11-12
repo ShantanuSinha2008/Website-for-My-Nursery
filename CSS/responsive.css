@@ -1,0 +1,129 @@
+@media only screen  and (max-width: 1140px){
+
+
+    .navbar li a{
+        padding: 0px 2px;
+        padding-top:0px ;
+        font-size: 3.3rem;
+    }
+    .burger{
+        display: block;
+    }
+    .about p{
+        font-size: 4.2rem;
+    }
+    .frontpage img{
+        width: 240px;
+        height: 240px;
+        border-radius: 200px;
+    }
+    .about-web{
+        padding-top: 100px;
+    }
+    .about-web p{
+        padding-bottom: 20px;
+    }
+    .about-web a{
+        padding: 20px;
+        font-size: 2.4rem;
+    }
+    .shop{
+        padding-top: 50px;
+    }
+    .about-web h1{
+        font-size: 3.8rem;
+    }
+    .about-web p{
+        font-size: 3.0rem;
+    }
+    .about-web{
+        padding: 20px 30px;
+    }
+    .frontpage{
+        height: 150vh;
+        width: 139vh;
+    }
+    .coverpg{
+        padding-top: 40px;
+    }
+    body{
+        background: rgba(0, 0, 0, 0.7) url(../Images/bg.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    .products a{
+        color: white;
+        text-decoration:none;
+        padding: 18px;
+        background-color: brown;
+        font-size: 2.0rem;
+    }
+    .products img{
+        width: 600px;
+        height: 600px;
+        padding: 20px 10px;
+        padding-bottom: 12px;
+    }
+    .products p{
+        padding-bottom: 26px;
+        font-size: 2.8rem;
+    }
+    .products h2{
+        font-size: 2.4rem;
+    }
+    .shop{
+        padding: 30px;
+    }
+    .shopnow{
+        height: 510vh;
+        width: 139vh;
+    }
+    .shopnow p{
+        font-size: 1.9rem;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        width: 139vh;
+        height: 200vh;
+    }
+    .about h1{
+        font-size: 6.2rem;
+    }
+    .footer{
+        width: 139vh;
+        height: 158vh;
+    }
+    .footer input::placeholder{
+        font-size: 3.6rem;
+    }
+    .footer a{
+        font-size: 3.8rem;
+        color: grey;
+    }
+    .footer input{
+        font-size: 3.6rem;
+        border-bottom: 7px solid white;
+    }
+    .right-footer{
+        padding-left: 80px;
+    }
+    .right-footer h2{
+        font-size: 4.7rem;
+    }
+    .right-footer h3{
+        font-size: 3.5rem;
+    }
+    .footer h3{
+        font-size: 3.4rem;
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .signup{
+        font-size: 3.5rem;
+    }
+}
